@@ -1,0 +1,73 @@
+@import '../../../variables';
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+
+  .searchBox {
+    width: 50%;
+    margin-right: 1rem;
+
+    input[type='search'] {
+      border: 0;
+      outline: none;
+      background: url('../../../assets/icons/loupe.png');
+      background-size: 14px;
+      background-repeat: no-repeat;
+      background-position: 1px 4px;
+      padding: 0 1.7rem;
+
+      &::placeholder {
+        color: $ghost;
+      }
+    }
+  }
+
+  .navItems {
+    list-style-type: none;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // background: red;
+
+    li {
+      margin-right: 3rem;
+      color: $ghost;
+      font-size: 0.95rem;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      .bellIcon {
+        font-size: 1.4rem;
+      }
+
+      .profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+
+        .profileName {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+
+          small {
+            margin-bottom: -5px;
+            text-align: right;
+          }
+        }
+
+        .avatar {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}

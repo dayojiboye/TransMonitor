@@ -1,0 +1,57 @@
+@import '../../../variables';
+
+.sider {
+  padding: 2rem 0;
+
+  .generateInvoice {
+    padding-left: 2.5rem;
+    margin-bottom: 2rem;
+
+    button {
+      height: auto;
+      background: $green;
+      border: 1px solid $green;
+      font-weight: 600;
+      border-radius: 30px;
+      padding: 0.4rem 1.8rem;
+    }
+  }
+
+  .menu {
+    height: $full;
+    border-right: 0;
+    width: $full;
+    margin: 0 auto;
+    color: $ghost;
+
+    .itemGroup {
+      width: $full;
+      margin-bottom: 1.5rem;
+
+      &:nth-of-type(3) {
+        margin-bottom: 0;
+      }
+
+      div {
+        &:first-of-type {
+          color: $ghost;
+          padding-left: 3rem;
+        }
+      }
+
+      .menuItems {
+        padding-left: 3rem !important;
+
+        ion-icon {
+          font-size: 1.3rem;
+          vertical-align: middle;
+        }
+
+        .itemText {
+          vertical-align: middle;
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}
