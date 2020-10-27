@@ -1,6 +1,17 @@
 import React from 'react';
 
 import { Layout, Menu, Button } from 'antd';
+import {
+  Overview,
+  AllPayments,
+  ReconciledPayments,
+  UnReconciledPayments,
+  ManualSettlements,
+  AllOrders,
+  PendingOrders,
+  ReconciledOrders,
+  MerchantProfile,
+} from '../../../assets/svg';
 import classes from './styles.module.scss';
 
 const { Sider } = Layout;
@@ -15,54 +26,54 @@ const siderComponent = (props) => {
       <Menu mode="inline" className={classes.menu} defaultSelectedKeys="1">
         <Menu.ItemGroup key="g1" title="Main" className={classes.itemGroup}>
           <Menu.Item key="1" className={classes.menuItems}>
-            <ion-icon name="speedometer-outline"></ion-icon>
-            <span className={classes.itemText}>Overview</span>
+            <Overview />
+            <span>Overview</span>
           </Menu.Item>
         </Menu.ItemGroup>
 
         <Menu.ItemGroup key="g2" title="Payments" className={classes.itemGroup}>
           <Menu.Item key="2" className={classes.menuItems}>
-            <ion-icon name="wallet-outline"></ion-icon>
-            <span className={classes.itemText}>All Payments</span>
+            <AllPayments />
+            <span>All Payments</span>
           </Menu.Item>
 
           <Menu.Item key="3" className={classes.menuItems}>
-            <ion-icon name="wallet-outline"></ion-icon>
-            <span className={classes.itemText}>Reconciled Payments</span>
+            <ReconciledPayments />
+            <span>Reconciled Payments</span>
           </Menu.Item>
 
           <Menu.Item key="4" className={classes.menuItems}>
-            <ion-icon name="wallet-outline"></ion-icon>
-            <span className={classes.itemText}>Un - Reconciled Payments</span>
+            <UnReconciledPayments />
+            <span>Un - Reconciled Payments</span>
           </Menu.Item>
 
           <Menu.Item key="5" className={classes.menuItems}>
-            <ion-icon name="radio-button-on-outline"></ion-icon>
-            <span className={classes.itemText}>Manual Settlement</span>
+            <ManualSettlements />
+            <span>Manual Settlement</span>
           </Menu.Item>
         </Menu.ItemGroup>
 
         <Menu.ItemGroup key="g3" title="Orders" className={classes.itemGroup}>
           <Menu.Item key="6" className={classes.menuItems}>
-            <ion-icon name="newspaper-outline"></ion-icon>
-            <span className={classes.itemText}>All Orders</span>
+            <AllOrders />
+            <span>All Orders</span>
           </Menu.Item>
 
           <Menu.Item key="7" className={classes.menuItems}>
-            <ion-icon name="newspaper-outline"></ion-icon>
-            <span className={classes.itemText}>Pending Orders</span>
+            <PendingOrders />
+            <span>Pending Orders</span>
           </Menu.Item>
 
           <Menu.Item key="8" className={classes.menuItems}>
-            <ion-icon name="newspaper-outline"></ion-icon>
-            <span className={classes.itemText}>Reconciled Orders</span>
+            <ReconciledOrders />
+            <span>Reconciled Orders</span>
           </Menu.Item>
         </Menu.ItemGroup>
 
         <Menu.ItemGroup key="g4" className={classes.itemGroup}>
           <Menu.Item key="9" className={classes.menuItems}>
-            <ion-icon name="person-outline"></ion-icon>
-            <span className={classes.itemText}>Merchant Profile</span>
+            <MerchantProfile />
+            <span>Merchant Profile</span>
           </Menu.Item>
         </Menu.ItemGroup>
       </Menu>

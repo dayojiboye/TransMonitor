@@ -13,14 +13,14 @@
     input[type='search'] {
       border: 0;
       outline: none;
-      background: url('../../../assets/icons/loupe.png');
+      background: url('../../../assets/icons/search.png');
       background-size: 14px;
       background-repeat: no-repeat;
       background-position: 1px 4px;
       padding: 0 1.7rem;
 
       &::placeholder {
-        color: $ghost;
+        color: $faded;
       }
     }
   }
@@ -42,10 +42,6 @@
 
       &:last-of-type {
         margin-right: 0;
-      }
-
-      .bellIcon {
-        font-size: 1.4rem;
       }
 
       .profile {

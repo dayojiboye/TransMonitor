@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Badge, Avatar } from 'antd';
-import { BellOutlined } from '@ant-design/icons';
+import { Avatar } from 'antd';
+import { Bell } from '../../../assets/svg';
 import profilePic from '../../../assets/images/8CC23778-6783-4B83-ACB3-1264819DC4C5remote983bbcad23a25365a45085eb12a12c1fdc85655a-1-original.jpeg';
 import classes from './styles.module.scss';
 
@@ -22,13 +22,7 @@ const nav = (props) => {
         <li>Support</li>
         <li>FAQ</li>
         <li>
-          <Badge
-            count={8}
-            offset={[-4, 4]}
-            style={{ backgroundColor: '#1875f0' }}
-          >
-            <BellOutlined className={classes.bellIcon} />
-          </Badge>
+          <Bell />
         </li>
         <li>
           <div className={classes.profile}>
