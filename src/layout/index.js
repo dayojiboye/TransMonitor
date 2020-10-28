@@ -1,24 +1,18 @@
 import React from 'react';
 
-import { Layout } from 'antd';
 import Header from '../components/ui/header';
 import Sider from '../components/ui/sider';
-// import classes from './styles.module.scss';
+import classes from './styles.module.scss';
 
-// const { SubMenu } = Menu;
-const { Content } = Layout;
-
-const LayoutContainer = (props) => {
+const LayoutContainer = ({ children }) => {
   return (
-    <Layout>
+    <div className={classes.layout}>
       <Header />
-      <Layout style={{ height: '100vh' }}>
-        <Sider />
-        <Layout style={{ padding: '0 24px 24px', background: '#f7f8fa' }}>
-          <Content>...</Content>
-        </Layout>
-      </Layout>
-    </Layout>
+
+      <Sider />
+
+      <main className={classes.main}>{children}</main>
+    </div>
   );
 };
 

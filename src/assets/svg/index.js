@@ -9,3 +9,4 @@ export { ReactComponent as AllOrders } from './all-orders.svg';
 export { ReactComponent as PendingOrders } from './pending-orders.svg';
 export { ReactComponent as ReconciledOrders } from './reconciled-orders.svg';
 export { ReactComponent as MerchantProfile } from './merchant-profile.svg';
+export { ReactComponent as Stats } from './stats.svg';

@@ -1,0 +1,15 @@
+@import '../variables';
+
+.layout {
+  width: $full;
+  display: grid;
+  grid-template-rows: 55px auto;
+  grid-template-columns: 280px 1fr;
+
+  .main {
+    grid-row: 2;
+    grid-column: 2;
+    background: $gray;
+    padding: 0 3.5rem 0 2rem;
+  }
+}

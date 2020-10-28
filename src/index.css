@@ -16,12 +16,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
   height: 100%;
-}
-
-.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
-  background-color: #e8f1fd !important;
-}
-
-.ant-menu-item-selected {
-  color: #647787 !important;
+  font-size: 0.7rem;
 }

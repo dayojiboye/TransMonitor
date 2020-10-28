@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { Avatar } from 'antd';
 import { Bell } from '../../../assets/svg';
 import profilePic from '../../../assets/images/8CC23778-6783-4B83-ACB3-1264819DC4C5remote983bbcad23a25365a45085eb12a12c1fdc85655a-1-original.jpeg';
 import classes from './styles.module.scss';
@@ -31,7 +30,7 @@ const nav = (props) => {
               <span>Oluwaleke Ojo</span>
             </div>
             <div className={classes.avatar}>
-              <Avatar size={40} src={profilePic} />
+              <img src={profilePic} alt="avatar" />
             </div>
           </div>
         </li>

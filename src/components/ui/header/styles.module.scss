@@ -2,17 +2,16 @@
 
 .header {
   width: $full;
-  height: 50px;
-  background: white;
-  padding: 2rem 4rem;
+  padding: 0 3.5rem;
   box-shadow: $boxShadow;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 257px auto;
   align-items: center;
+  grid-row: 1;
+  grid-column: 1/3;
   z-index: 200;
 
   .logo {
-    width: 25%;
+    width: 300px;
   }
 }
