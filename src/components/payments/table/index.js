@@ -28,7 +28,7 @@ const table = () => {
           <td>12:30</td>
           <td>
             <Button style={{ color: '#27ae60' }}>
-              <ion-icon name="ellipse"></ion-icon> Reconciled
+              <ion-icon name="ellipse"></ion-icon> Reconcilled
             </Button>
           </td>
           <td>
@@ -68,7 +68,7 @@ const table = () => {
           <td>12:30</td>
           <td>
             <Button style={{ color: '#27ae60' }}>
-              <ion-icon name="ellipse"></ion-icon> Reconciled
+              <ion-icon name="ellipse"></ion-icon> Reconcilled
             </Button>
           </td>
           <td>
@@ -88,7 +88,7 @@ const table = () => {
           <td>12:30</td>
           <td>
             <Button style={{ color: '#27ae60' }}>
-              <ion-icon name="ellipse"></ion-icon> Reconciled
+              <ion-icon name="ellipse"></ion-icon> Reconcilled
             </Button>
           </td>
           <td>
@@ -128,7 +128,7 @@ const table = () => {
           <td>12:30</td>
           <td>
             <Button style={{ color: '#ccc' }}>
-              <ion-icon name="ellipse"></ion-icon> Un-reconciled
+              <ion-icon name="ellipse"></ion-icon> Un-reconcilled
             </Button>
           </td>
           <td>
@@ -148,7 +148,7 @@ const table = () => {
           <td>12:30</td>
           <td>
             <Button style={{ color: '#27ae60' }}>
-              <ion-icon name="ellipse"></ion-icon> Reconciled
+              <ion-icon name="ellipse"></ion-icon> Reconcilled
             </Button>
           </td>
           <td>
@@ -168,7 +168,7 @@ const table = () => {
           <td>12:30</td>
           <td>
             <Button style={{ color: '#ccc' }}>
-              <ion-icon name="ellipse"></ion-icon> Un-reconciled
+              <ion-icon name="ellipse"></ion-icon> Un-reconcilled
             </Button>
           </td>
           <td>

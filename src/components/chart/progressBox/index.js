@@ -17,7 +17,7 @@ const progressBox = () => {
             Pending Orders: <span style={{ color: 'gold' }}>20</span>
           </li>
           <li>
-            Reconciled Orders: <span style={{ color: '#27ae60' }}>80</span>
+            Reconcilled Orders: <span style={{ color: '#27ae60' }}>80</span>
           </li>
           <li>
             Total Orders: <span style={{ color: '#1875F0' }}>100</span>
@@ -32,10 +32,10 @@ const progressBox = () => {
         </ProgressBar>
         <ul className={classes.progressStats}>
           <li>
-            Un-reconciled Payments: <span style={{ color: 'gold' }}>20</span>
+            Un-reconcilled Payments: <span style={{ color: 'gold' }}>20</span>
           </li>
           <li>
-            Reconciled Payments: <span style={{ color: '#27ae60' }}>80</span>
+            Reconcilled Payments: <span style={{ color: '#27ae60' }}>80</span>
           </li>
           <li>
             Total Payments: <span style={{ color: '#1875F0' }}>100</span>

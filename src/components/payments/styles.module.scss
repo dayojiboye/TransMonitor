@@ -83,6 +83,7 @@
 
     .paymentsDropdown {
       grid-column: 6;
+      position: relative;
 
       button {
         width: $full;
@@ -98,6 +99,58 @@
         text-align: left;
         outline: none;
         cursor: pointer;
+      }
+
+      .dropdownMenu {
+        list-style-type: none;
+        width: $full;
+        background: $white;
+        margin: 0;
+        padding: 0;
+        box-shadow: $boxShadow;
+        position: absolute;
+        z-index: 2;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+        li {
+          padding: 0.5rem 0.7rem;
+
+          &:nth-child(2) {
+            background: #f4f4f4;
+          }
+        }
+      }
+    }
+  }
+
+  .bottomPagination {
+    width: $full;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > span {
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    .buttonGroup {
+      button {
+        padding: 0.3rem 0.8rem;
+        background: transparent;
+        border: 1px solid $faded;
+        font-family: $robotoFont;
+        outline: none;
+        cursor: pointer;
+
+        &:nth-child(2) {
+          background: #1875f0;
+          border-left: 0;
+          border-right: 0;
+          color: $white;
+        }
       }
     }
   }

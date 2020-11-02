@@ -3,12 +3,12 @@ import React from 'react';
 import {
   Overview,
   AllPayments,
-  ReconciledPayments,
-  UnReconciledPayments,
+  ReconcilledPayments,
+  UnReconcilledPayments,
   ManualSettlements,
   AllOrders,
   PendingOrders,
-  ReconciledOrders,
+  ReconcilledOrders,
   MerchantProfile,
 } from '../../../assets/svg';
 
@@ -31,12 +31,12 @@ const items = [
         text: 'All Payments',
       },
       {
-        icon: <ReconciledPayments />,
-        text: 'Reconciled Payments',
+        icon: <ReconcilledPayments />,
+        text: 'Reconcilled Payments',
       },
       {
-        icon: <UnReconciledPayments />,
-        text: 'Un - Reconciled Payments',
+        icon: <UnReconcilledPayments />,
+        text: 'Un - Reconcilled Payments',
       },
       {
         icon: <ManualSettlements />,
@@ -57,8 +57,8 @@ const items = [
         text: 'Pending Orders',
       },
       {
-        icon: <ReconciledOrders />,
-        text: 'Reconciled Orders',
+        icon: <ReconcilledOrders />,
+        text: 'Reconcilled Orders',
       },
     ],
     active: false,
