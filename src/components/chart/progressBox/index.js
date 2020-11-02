@@ -38,7 +38,7 @@ const progressBox = () => {
             Reconciled Payments: <span style={{ color: '#27ae60' }}>80</span>
           </li>
           <li>
-            Total Orders: <span style={{ color: '#1875F0' }}>100</span>
+            Total Payments: <span style={{ color: '#1875F0' }}>100</span>
           </li>
         </ul>
       </Card>

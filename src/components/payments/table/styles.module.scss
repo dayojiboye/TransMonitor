@@ -1,0 +1,105 @@
+@import '../../../variables';
+
+.table {
+  width: $full;
+  border-collapse: collapse;
+  color: $ghost;
+
+  tr {
+    border-bottom: 3px solid #eaeef0;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  th,
+  td {
+    text-align: left;
+    font-weight: 400;
+  }
+
+  th {
+    border: 0;
+    background: #eaeef0;
+    padding: 1rem 1.7rem 1rem 0;
+    font-size: 0.9rem;
+
+    &:nth-child(1) {
+      width: 470px;
+      padding-left: 1.3rem;
+    }
+
+    &:last-child {
+      width: 200px;
+    }
+  }
+
+  td {
+    background: $white;
+    padding: 1.3rem 1.7rem 1rem 0;
+    font-size: 0.85rem;
+
+    &:nth-child(1) {
+      padding-left: 1.3rem;
+    }
+
+    &:nth-child(4) {
+      width: 40px;
+      padding-right: 1rem;
+    }
+
+    &:nth-child(5) {
+      text-align: center;
+      padding-left: 1.2rem;
+    }
+
+    .itemType {
+      display: flex;
+      align-items: center;
+      font-size: 0.9rem;
+      color: $black;
+      font-family: $robotoFont;
+
+      .avatar {
+        width: 40px;
+        height: 40px;
+        background: $ghost;
+        border-radius: 50%;
+        border: 1px solid $ghost;
+        color: white;
+        font-size: 0.75rem;
+        font-weight: lighter;
+        font-family: 'Segoe UI', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1.5rem;
+      }
+    }
+
+    button {
+      width: 115px;
+      background: white;
+      padding: 0.4rem 0;
+      border: 1px solid $faded;
+      border-radius: 20px;
+      font-family: inherit;
+      font-size: 0.75rem;
+      outline: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      ion-icon {
+        font-size: 0.7rem;
+        margin-right: 0.3rem;
+      }
+    }
+
+    ion-icon {
+      font-size: 1.3rem;
+    }
+  }
+}
